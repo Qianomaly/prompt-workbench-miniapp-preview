@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Design QA Comparison</title>
+    <style>
+      :root {
+        font-family: Inter, "PingFang SC", Arial, sans-serif;
+        background: #eef1ef;
+        color: #15191e;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+        align-items: start;
+      }
+
+      figure {
+        margin: 0;
+        padding: 14px;
+        background: #fff;
+        border: 1px solid #dfe4df;
+        border-radius: 18px;
+      }
+
+      figcaption {
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: 800;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <figure>
+        <figcaption>Source option 3</figcaption>
+        <img src="/assets/source-option-3.png" alt="Source option 3" />
+      </figure>
+      <figure>
+        <figcaption>Prototype mobile capture</figcaption>
+        <img src="/assets/prototype-mobile.png" alt="Prototype mobile capture" />
+      </figure>
+    </main>
+  </body>
+</html>
